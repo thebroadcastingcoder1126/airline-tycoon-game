@@ -1,21 +1,132 @@
-MIT License
 
-Copyright (c) 2025 thebroadcastingcoder1126
+---
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## 2. One-Page Game Concept
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Below is a concise, one-page concept you can paste into a document or your README:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+---
+
+### Airline Tycoon – One-Page Concept
+
+**Working Title:** *Skyward Routes* (placeholder, change as you like)
+
+**Genre:** Tycoon / Management Simulation
+
+**Platforms:**  
+- **Primary**: PC (Windows/Mac/Linux)  
+- **Secondary**: Web (HTML5 export, if using Godot or GDevelop)
+
+**Game Overview:**  
+*Skyward Routes* puts players in the role of an airline CEO tasked with building and managing a profitable airline. Players will juggle route planning, ticket pricing, staff satisfaction, and random global events (fuel price hikes, strikes) to grow their airline empire.
+
+**Core Gameplay Mechanics:**  
+1. **Fleet Management**  
+   - Purchase, lease, and maintain aircraft.  
+   - Different models have unique capacities, fuel consumption, etc.  
+2. **Route Planning**  
+   - Select profitable routes, set schedules, determine ticket prices.  
+   - Balancing flight frequency and operational costs is crucial.  
+3. **Financial System**  
+   - Track income (ticket sales, cargo) vs. expenses (fuel, salaries, airport fees).  
+   - Unlock better aircraft and airport hubs as you grow.  
+4. **Event & Reputation System**  
+   - Random events (economic booms, pandemics, etc.) that impact your finances.  
+   - Reputation influences passenger demand and investor relations.  
+
+**Unique Selling Points:**  
+- **Dynamic Economy**: World events can drastically shift supply/demand.  
+- **Depth with Accessibility**: A streamlined interface for complex decisions.  
+- **Customization**: Livery, seating configuration, in-flight services.
+
+**Target Audience:**  
+- Fans of management sims (e.g., *Game Dev Tycoon*, *RollerCoaster Tycoon*).  
+- Casual to mid-core players who enjoy strategic planning.
+
+**Development Scope & Goals:**  
+- **Minimum Viable Product (MVP)**: A functioning system to buy planes, set routes, and track basic finances.  
+- **Future Features**: Employee management, marketing campaigns, alliances with other airlines.
+
+---
+
+## 3. Skeleton Game Design Document (GDD)
+
+Below is a ready-to-use GDD outline. You can copy this into a `.docx` or Google Doc and fill it out as you go.
+
+```markdown
+# Airline Tycoon Game Design Document
+
+## 1. Game Overview
+- **Title**: *Skyward Routes* (Placeholder)
+- **Genre**: Tycoon / Management
+- **Target Platform**: PC (with potential web export)
+- **Key Selling Points**: 
+  1. Dynamic economy
+  2. Deep but accessible management
+  3. Procedural events
+
+## 2. Gameplay Mechanics
+### 2.1 Core Loop
+1. **Purchase/Lease Planes**  
+2. **Set Up & Manage Routes**  
+3. **Earn Revenue / Pay Expenses**  
+4. **Expand & Upgrade**
+
+### 2.2 Resources
+- **Money**: Main currency.
+- **Planes**: Each with different stats (capacity, fuel usage, maintenance cost).
+- **Reputation**: Influences passenger demand.
+
+### 2.3 Systems
+#### 2.3.1 Financial
+- Income from ticket sales, cargo
+- Expenses: Fuel, salaries, maintenance
+
+#### 2.3.2 Route Management
+- Airport partnerships (fees, flight slots)
+- Scheduling flights (frequency, times)
+
+#### 2.3.3 Event System
+- Random or scheduled events (fuel price spikes, staff strikes)
+
+## 3. Game Progression
+- **Unlocks**: Larger aircraft, more lucrative routes, improved airport facilities.
+- **Difficulty Scaling**: Introduce competition or more complex events as player grows.
+
+## 4. Controls & User Interface
+- **Main Dashboard**: Displays current flights, revenue, alerts.
+- **Route Planner**: World map with route lines and flight details.
+- **Fleet Manager**: List of owned aircraft, health, status.
+
+## 5. Art & Aesthetics
+- Style references (realistic, cartoony, minimalistic).
+- UI references (color palette, button style, fonts).
+
+## 6. Technical
+- **Engine**: Godot
+- **Languages**: GDScript for logic
+- **Data**: JSON or in-engine resources for storing plane/airport data.
+
+## 7. Sound & Music
+- Background music (relaxing, corporate vibe)
+- Sound effects (takeoff, landing, cash register, notifications)
+
+## 8. Project Timeline
+- **Phase 1**: Basic route/finance system
+- **Phase 2**: Events, staff management
+- **Phase 3**: Polishing, balancing, testing
+
+## 9. Team
+- **Designer/Project Manager**: [Name]
+- **Programmer**: [Name]
+- **Artist/UI**: [Name]
+
+## 10. Testing & Feedback
+- Regular internal playtests
+- Potential public alpha/beta
+
+## 11. Future Features (Backlog)
+- Multiplayer alliances
+- Cargo-only flights
+- Complex weather system
+
