@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://b3nuk187tgopu"]
+
+[ext_resource type="Script" path="res://MainMenu.gd" id="1_nqusb"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_nqusb")
+
+[node name="StartButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 4.0
+offset_right = 1154.0
+offset_bottom = 650.0
+text = "Start Game"
+icon_alignment = 1
+expand_icon = true

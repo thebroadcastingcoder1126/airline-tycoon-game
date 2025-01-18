@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://qvybiwhkt2ay"]
+
+[ext_resource type="Script" path="res://finance.gd" id="1_u25wk"]
+
+[node name="Game" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_u25wk")
+
+[node name="DayLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 1081.0
+offset_top = 21.0
+offset_right = 1124.0
+offset_bottom = 44.0
+text = "Day 1"
+
+[node name="MoneyLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 966.0
+offset_top = 21.0
+offset_right = 1057.0
+offset_bottom = 44.0
+text = "$10,000,000"
+horizontal_alignment = 2
